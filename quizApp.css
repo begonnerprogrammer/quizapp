@@ -17,7 +17,7 @@ html{
     align-items: center;
     justify-content: center;
     /* background-color: hsl(206, 92%,94%); */
-    background-color: yellow;
+   background: linear-gradient(#fff,#000);
 }
 .innerdiv{
     width: 40vw;
@@ -79,6 +79,9 @@ margin-top:4rem;
 }
 .scoreArea{
 display: none;
+}
+.question{
+    color: #0984e3 !important ;
 }
 
 @media(min-width:365px) {

@@ -137,7 +137,7 @@ submit.addEventListener('click', function () {
     }
     deleteAll();
     questioncount++;
-    if (questioncount < quizDB.length) {
+    if (questioncount < quizDB.length){
         loadquestion();
     }
     else {
